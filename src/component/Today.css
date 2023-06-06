@@ -1,0 +1,21 @@
+.song-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Increase the gap value as per your preference */
+}
+
+.song-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.song-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px; /* Adjust the width as per your preference */
+  margin: 0 auto; /* Center the items horizontally within the grid cells */
+}

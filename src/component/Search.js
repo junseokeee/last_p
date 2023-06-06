@@ -108,6 +108,10 @@ const Search = () => {
     setTrackDetail(trackInfo[0].track);
   };
 
+  useEffect(() => {
+    console.log(tracks.listOfTracksFromAPI);
+  }, [tracks.listOfTracksFromAPI]);
+
   return (
     <div className="container">
       <br />
