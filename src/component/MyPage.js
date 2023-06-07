@@ -36,7 +36,7 @@ function MyPage({ updateUsername }) {
         <div className="input-container">
           <label htmlFor="newUsername"></label>
           <input
-            placeholder="새로운 아이디를 입력해주세요"
+            placeholder="새 아이디"
             type="text"
             id="newUsername"
             value={updatedUsername}
@@ -46,7 +46,7 @@ function MyPage({ updateUsername }) {
         <div className="input-container">
           <label htmlFor="newPassword"></label>
           <input
-            placeholder="새로운 비밀번호를 입력해주세요"
+            placeholder="새 비밀번호"
             type="password"
             id="newPassword"
             value={updatedPassword}

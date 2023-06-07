@@ -7,7 +7,7 @@ export default class Today extends Component {
     return (
       <div className="song-container">
         <br />
-        <h2>Featured music of the day</h2>
+        <h1>Featured music of the day</h1>
         <br />
         <div className="song-grid">
           {songs.map((song) => (

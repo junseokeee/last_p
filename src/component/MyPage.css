@@ -22,16 +22,14 @@ input[type="password"] {
   width: 250px;
   height: 30px;
   padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px; /* Add this line to set the border radius */
 }
+
 .borderless-button {
   border: none;
   background-color: transparent;
 
   cursor: pointer;
   /* Add any other desired styles */
-}
-
-.borderless-button:active {
-  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-  transform: translateY(4px);
 }

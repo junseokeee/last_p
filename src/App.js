@@ -55,7 +55,7 @@ function App() {
         setLoggedIn(false);
         setUsername("");
         setPassword("");
-        swal("Logged Out", "You have been logged out.", "success");
+        swal("로그아웃", "로그아웃이 완료되었습니다.", "success");
       }
     });
   };
@@ -87,16 +87,22 @@ function App() {
           </div>
         ) : (
           <div className="login-container">
-            <h2>Please log in to view Song Scope.</h2>
+            <h1>WELCOME !</h1>
+            <br />
+            <h1>Please log in to view Song Scope.</h1>
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+
             <form onSubmit={handleLogin}>
               <label>
                 <input
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  placeholder="아이디를 입력해주세요"
+                  placeholder="아이디"
                 />
               </label>
               <br />
@@ -105,7 +111,7 @@ function App() {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="비밀번호를 입력해주세요"
+                  placeholder="비밀번호"
                 />
               </label>
               <br />

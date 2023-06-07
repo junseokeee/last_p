@@ -10,7 +10,8 @@ import {
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
 
-const API_KEY = "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";
+const API_KEY = "";
+
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = {
   //  Explain things like you're talking to a software professional with 5 years of experience.
@@ -109,7 +110,7 @@ function Recom() {
       }}
     >
       <br />
-      <h2>Music Recommend with ChatGPT 3.5 turbo</h2>
+      <h1>Music Recommend with ChatGPT 3.5 turbo</h1>
       <br />
       <div style={{ height: "690px", width: "100%", position: "relative" }}>
         <MainContainer style={{ height: "100%" }}>
