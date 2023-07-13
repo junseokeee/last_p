@@ -1,3 +1,10 @@
+# last_p - Song Scope
+Spotify API와 ChatGPT API를 사용해 만든 음악 추천 웹사이트
+ 
+<img width="1440" alt="스크린샷 2023-06-07 오후 1 04 38" src="https://github.com/junseokeee/web_applications_p/assets/88473134/253ed68e-2b05-41da-b97b-c2e3b292adbc">
+<img width="1440" alt="스크린샷 2023-06-07 오후 1 11 30" src="https://github.com/junseokeee/web_applications_p/assets/88473134/e19beebe-653e-4ca9-a390-008c796a985b">
+<img width="1440" alt="image" src="https://github.com/junseokeee/web_applications_p/assets/88473134/659d7796-228c-432b-b283-136869f78bdb">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
